@@ -1,6 +1,7 @@
 package src;
 
 public class Carro extends Veiculo {
+    public int qtdPortas;
 
     public Carro(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem,
             StatusVeiculo status) {
