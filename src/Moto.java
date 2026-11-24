@@ -1,5 +1,6 @@
 package src;
 public class Moto extends Veiculo {
+    public int cilindradas;
 
     public Moto(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem,
             StatusVeiculo status) {
