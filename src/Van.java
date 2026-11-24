@@ -1,6 +1,7 @@
 package src;
 
 public class Van extends Veiculo {
+    public int qtdMaxPassageiros;
 
     public Van(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem,
             StatusVeiculo status) {
